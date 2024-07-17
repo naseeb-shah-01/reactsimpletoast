@@ -1,3 +1,5 @@
+/* App.css */
+
 .App {
   text-align: center;
 }
@@ -13,26 +15,60 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Styling for Navbar */
+.navbar {
+  background-color: #007bff; /* Example color, adjust as needed */
+  padding: 10px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 30px; /* Example height for logo, adjust as needed */
+  margin-right: 10px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
   color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-links a:hover {
+  background-color: #0056b3; /* Darker shade of primary color */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* App.css */
+
+/* Existing styles for .App and .App-header */
+
+/* Toast button styles */
+.toast-button {
+  background-color: #007bff; /* Example color, adjust as needed */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toast-button:hover {
+  background-color: #0056b3; /* Darker shade of primary color */
+}
+body{
+  font-weight: 500;
+
 }
